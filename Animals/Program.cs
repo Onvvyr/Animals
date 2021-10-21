@@ -4,23 +4,8 @@ namespace Animals
 {
     class Program
     {
-        interface IZwierze
+        static void Main(string[] args)
         {
-            void SampleMethod();
-        }
-
-        class ImplementationClass : IZwierze
-        {
-            void IZwierze.SampleMethod()
-            {
-            }
-
-            static void Main()
-            {
-                IZwierze obj = new ImplementationClass();
-
-                obj.SampleMethod();
-            }
         }
     }
 }

@@ -4,7 +4,19 @@ using System.Text;
 
 namespace Animals
 {
-    class kot
+    public interface IZwierze
     {
+        void Kot();
+    }
+    public interface ISurface
+    {
+        void Kot();
+    }
+    public class SampleClass : IZwierze, ISurface
+    {
+        public void Kot()
+        {
+            Console.WriteLine("Cześć, jestem pies");
+        }
     }
 }
