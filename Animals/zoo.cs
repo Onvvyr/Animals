@@ -10,7 +10,6 @@ namespace Animals
             Property;
         public interface IZwierze
         {
-
         }
     }
 }
